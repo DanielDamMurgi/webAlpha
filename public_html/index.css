@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+.cuerpoP{
+    background-color: white;
+    min-width: 100vh;
+    min-height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+/* CABECERA */
+.cabecera{
+    background-color: blue;
+    min-width: 100vh;
+    height: 210px;
+}
+.imagen1{
+    float: left;
+    height: 200px;
+    width: 16vh;
+    margin: 5px;
+}
+.imagen2{
+    float: right;
+    height: 200px;
+    width: 16vh;
+    margin: 5px;
+}
+.cabeceraTitulo{
+    background-color: #f0f000;
+    margin: auto;
+    width: 100vh;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+
+
