@@ -16,7 +16,7 @@ body{
 .cabecera{
     background-color: blue;
     min-width: 100vh;
-    height: 150px;
+    height: 16vh;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -61,7 +61,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: #ccc;
 }
 
 .nav {
@@ -83,7 +83,7 @@ ul {
 
 .nav li a:hover {
     background-color: #333333;
-  color: white;
+    color: white;
 }
 
 .nav li ul {
@@ -105,4 +105,18 @@ ul {
     background-color: #ccc;
     height: 500px;
   }
+}
+
+/*---------------- CUERPO -----------------*/
+.cuerpo{
+    background-color: white;
+    min-width: 100vh;    
+    height: 65vh;
+}
+
+/*--------------- FOOTER ------------------*/
+.pie{
+    background-color: black;
+    min-width: 100vh;
+    height: 19vh;
 }
