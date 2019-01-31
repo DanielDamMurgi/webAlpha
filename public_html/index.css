@@ -1,26 +1,33 @@
 body{
     margin: 0px;
-    background-color: #ccffff;
+    background-color: white;
 }
 
 .cuerpoP{
-    background-color: #ccffff;
     min-width: 100vh;
     min-height: 100vh;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: 250px;
-    margin-left: 250px;
 }
 /*---------------- CABECERA --------------*/
 .cabecera{
-    background-color: blue;
+    background-color: #045fd3;
     min-width: 100vh;
     height: 16vh;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.cabeceraP{
+    background-color: #045fd3;
+    min-width: 100vh;
+    height: 16vh;
+    border-bottom: 4px solid;
+    border-bottom-color: #01579b;
 }
 
 .left{
@@ -32,21 +39,17 @@ body{
 }
 
 .imagen1{
-    height: 146px;
+    height: 16vh;
     width: 16vh;
-    margin: 2px;
 }
 
 .imagen2{
-    height: 146px;
+    height: 16vh;
     width: 16vh;
-    max-height: 146px;
-    max-width: 16vh;
-    margin: 2px;
 }
 
 .cabeceraTitulo{
-    background-color: #f0f000;
+    background-color: #045fd3;
     width: 100%;
     margin: 0 auto;
     height: 100%;
@@ -61,12 +64,14 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ccc;
+  background-color: #ffff00;
 }
 
 .nav {
     min-width: 100vh;
     margin: 0 auto;
+    margin-right: 250px;
+    margin-left: 250px;
 }
 
 .nav > li {
@@ -96,13 +101,18 @@ ul {
     display:block;
 }
 
+.nav a.active{
+  background-color: #333333;
+  color: white;
+}
+
 @media screen and (min-width: 800px) {
   .main__content {
     width: 70%;
   }
   .main__aside {
     width: 30%;
-    background-color: #ccc;
+    background-color: #ffff00;
     height: 500px;
   }
 }
@@ -111,12 +121,34 @@ ul {
 .cuerpo{
     background-color: white;
     min-width: 100vh;    
-    height: 65vh;
+    min-height: 65vh;
+    max-height: 0 auto;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.noticiaPrimera{
+    margin: 0px;
+    padding: 20px;
+}
+.noticiaRest{
+    border-top: 2px solid;
+    border-top-color: #666666;
+    margin: 0px;
+    padding: 20px;
 }
 
 /*--------------- FOOTER ------------------*/
 .pie{
-    background-color: black;
     min-width: 100vh;
     height: 19vh;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.pieP{
+    background-color: #263238;
+    min-width: 100vh;
+    height: 19vh;
+    border-top: 4px solid;
+    border-top-color: #212121;
 }
