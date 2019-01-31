@@ -10,24 +10,24 @@ body{
     margin-bottom: 0px;
 }
 /*---------------- CABECERA --------------*/
+.cabeceraP{
+    background-color: #045fd3;
+    min-width: 100vh;
+    height: 19vh;
+    border-bottom: 4px solid;
+    border-bottom-color: #01579b;
+}
+
 .cabecera{
     background-color: #045fd3;
     min-width: 100vh;
-    height: 16vh;
+    height: 19vh;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-right: 250px;
     margin-left: 250px;
-}
-
-.cabeceraP{
-    background-color: #045fd3;
-    min-width: 100vh;
-    height: 16vh;
-    border-bottom: 4px solid;
-    border-bottom-color: #01579b;
 }
 
 .left{
@@ -39,39 +39,58 @@ body{
 }
 
 .imagen1{
-    height: 16vh;
+    height: 19vh;
     width: 16vh;
 }
 
 .imagen2{
-    height: 16vh;
+    height: 19vh;
     width: 16vh;
 }
 
-.cabeceraTitulo{
-    background-color: #045fd3;
+.tituloMenu{
     width: 100%;
     margin: 0 auto;
     height: 100%;
     float: center;
     text-align: center;
     display: inline-block;
+    vertical-align: top;
 }
+
+.cabeceraTitulo{
+    width: 100%;
+    height: 74%;
+    margin: 0 auto;
+    float: top;
+    text-align: center;
+    display:  inline-block;
+    vertical-align: top;
+}
+
+.menu{
+    float: bottom;
+    text-align: center;
+    display:  inline-block;
+    margin: 0 auto;
+    width: 100%;
+    vertical-align: bottom;
+}
+
 
 /*---------------- MENU -------------------*/
 ul {
   list-style-type: none;
-  margin: 0;
+  float: center;
   padding: 0;
   overflow: hidden;
   background-color: #ffff00;
+  
 }
 
 .nav {
     min-width: 100vh;
     margin: 0 auto;
-    margin-right: 250px;
-    margin-left: 250px;
 }
 
 .nav > li {
@@ -131,6 +150,7 @@ ul {
     margin: 0px;
     padding: 20px;
 }
+
 .noticiaRest{
     border-top: 2px solid;
     border-top-color: #666666;
